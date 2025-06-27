@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<div class="navbar">
+   
+    <div class="dropdown">
+   <button class="dropbtn">Sem-1</button>
+      <div class="dropdown-content">
+    <a href="{% url 'mca101' %}">DMS</a>
+   <a href="{% url 'mca102' %}">JAVA</a>
+   <a href="{% url 'mca103' %}">Co</a>
+   <a href="{% url 'mca104' %}">OS</a>
+   <a href="{% url 'mca105' %}">AFM</a>
+   <a href="{% url 'mca106' %}">Java Lab</a>
+   <a href="{% url 'mca107' %}">OS Lab</a>
+   <a href="{% url 'mca108' %}">Co Lab</a>
+        </div></div>
+<div class="dropdown">
+   <button class="dropbtn">Sem-2</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca201' %}">COOR</a>
+   <a href="{% url 'mca202' %}">Ds java</a>
+    <a href="{% url 'mca203' %}">DCCN</a>
+   <a href="{% url 'mca204' %}">ADBMS</a>
+   <a href="{% url 'mca205' %}">E-commerce</a>
+   <a href="{% url 'mca206' %}">Group Discussion</a>
+   <a href="{% url 'mca207' %}">DCCN LAB</a>
+   <a href="{% url 'mca208' %}">DS LAB</a>
+   <a href="{% url 'mca209' %}">ADBMS Lab</a>
+        </div></div>
+<div class="dropdown">
+   <button class="dropbtn">Sem-3</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca301' %}">Software Engineering</a>
+   <a href="{% url 'mca302' %}">Computer Graphics</a>
+   <a href="{% url 'mca303' %}">Web Technologys</a>
+    <a href="{% url 'mca304' %}">Data werhousing and Data mining</a>
+   <a href="{% url 'mca305' %}">Cryptoropht and Network security</a>
+   <a href="{% url 'mca306' %}"> courses offered by Other</a>
+    <a href="{% url 'mca307' %}">Technical Seminar</a>
+   <a href="{% url 'mca308' %}">Software Lav</a>
+   <a href="{% url 'mca309' %}">Web Technologing Lab</a>
+   <a href="{% url 'mca310' %}">Project</a>
+    </div></div>
+<div class="dropdown">
+  <button class="dropbtn">Sem-4</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca401' %}">Cloud Computing</a>
+   <a href="{% url 'mca402' %}">Essentials of Data</a>
+    <a href="{% url 'mca403' %}">Project work</a>
+        </div></div>
+<div class="dropdown">
+  <button class="dropbtn">Faculty</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca501' %}">Prabakhar naidu</a>
+   <a href="{% url 'mca502' %}">Murali mohan</a>
+   <a href="{% url 'mca503' %}">Chandra </a>
+    <a href="{% url 'mca504' %}">Hasya</a>
+     <a href="{% url 'mca505' %}">Praveen chowdary</a>
+</div></div>
+<div class="dropdown">
+  <button class="dropbtn">About</button>
+      <div class="dropdown-content">
+       <a href="{% url 'mca501' %}">About</a>
+</div></div>
+</div>
+<h1>MCA 204: Advanced Database Management Systems</h1>
+<pre>
+UNIT-I
+Introduction: Database- System Application – Purpose of Database Systems – View of Data – Database
+Languages– Relational Databases – Database Design–Object– based and Analysis – Database Architecture.
+Entity Relationship Model-Constraints-Entity-Relationship Diagrams, Design Issue-Weak Entity SetsDatabase Design for Banking Enterprise and Unified Modeling language. Structure of Relational Databases -
+Relational Algebra Operation– Modification of the Database.
+UNIT-II
+SQL : Data Definition- Structure of SQL Queries- Set Operations- Aggregate Functions- Nested Sub queriesComplex Queries – SQL Data Types and Schemas- Integrity Constraints-Authorization- Embedded SQLDynamic SQL- -Authorization in SQL.;PL/SQL Programming: Introduction, Control structures, Functions,
+Exception handling, Cursors, Triggers, Package.
+UNIT-III
+Object- Databases and XML: Object-based databases – Complex data types, structured types and inheritance
+in SQL, table inheritance, array and Multiset types in SQL, object identity and reference types in SQL,
+implementing O-R features, Persistent programming languages, OO vs OR. XML – Structure of XML,
+Document Schema, Querying and Transformation, API in XML, XML applications.
+10
+`
+UNIT-IV
+Query Processing: Measures of Query Cost-Selection Operation-Sorting-Joint Operation-Evaluation of
+Expressions-Query Optimization: Transformation of Relational Expressions-Estimating Statistics of
+Expression Results-Choice of Evaluation Plans.
+UNIT-V
+Transactions: Transaction concept, Transaction State-Implementation of Atomicity and Durability-Concurrent
+Executions- Serializability- Recoverability-Implementation of Isolation-Testing for Serializability,
+Concurrency Control: Lock Based Protocols-Timestamp-Based Protocols-Validation-Based ProtocolsMultiple Granularity-MultiversionSchemes. Deadlock handling-Insert and Delete Operations-Weak Levels of
+Consistency-Concurrency in Index Structures
+Text Book:
+1.Silberschatz A. Korth H F, and Sudarsan S, Database System Concepts, 5th edition, McGraw-Hill 2002.
+Chapters 1to 4, 6 to 10 and 13 to 17)
+2.SQL, PL/SQL: The Programming Language of Oracle by Ivan Bayross, BPB Publications, 2nd Revised
+Edition.
+Reference Books:
+1. Date C J,AnIntroduciton to Database Systems, 7th edition, Pearson Educaiton, 2000.
+2. Elmasri R, and Navathe S B, Fundamentals of Database Systems, 4th edition, Pearson Education, 2004.
+3. Mannino M V, Database Application Development and Design, McGraw-Hill, 2001.
+</pre>
+{% endblock %}

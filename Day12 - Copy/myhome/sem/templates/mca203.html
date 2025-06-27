@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<div class="navbar">
+   
+    <div class="dropdown">
+   <button class="dropbtn">Sem-1</button>
+      <div class="dropdown-content">
+    <a href="{% url 'mca101' %}">DMS</a>
+   <a href="{% url 'mca102' %}">JAVA</a>
+   <a href="{% url 'mca103' %}">Co</a>
+   <a href="{% url 'mca104' %}">OS</a>
+   <a href="{% url 'mca105' %}">AFM</a>
+   <a href="{% url 'mca106' %}">Java Lab</a>
+   <a href="{% url 'mca107' %}">OS Lab</a>
+   <a href="{% url 'mca108' %}">Co Lab</a>
+        </div></div>
+<div class="dropdown">
+   <button class="dropbtn">Sem-2</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca201' %}">COOR</a>
+   <a href="{% url 'mca202' %}">Ds java</a>
+    <a href="{% url 'mca203' %}">DCCN</a>
+   <a href="{% url 'mca204' %}">ADBMS</a>
+   <a href="{% url 'mca205' %}">E-commerce</a>
+   <a href="{% url 'mca206' %}">Group Discussion</a>
+   <a href="{% url 'mca207' %}">DCCN LAB</a>
+   <a href="{% url 'mca208' %}">DS LAB</a>
+   <a href="{% url 'mca209' %}">ADBMS Lab</a>
+        </div></div>
+<div class="dropdown">
+   <button class="dropbtn">Sem-3</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca301' %}">Software Engineering</a>
+   <a href="{% url 'mca302' %}">Computer Graphics</a>
+   <a href="{% url 'mca303' %}">Web Technologys</a>
+    <a href="{% url 'mca304' %}">Data werhousing and Data mining</a>
+   <a href="{% url 'mca305' %}">Cryptoropht and Network security</a>
+   <a href="{% url 'mca306' %}"> courses offered by Other</a>
+    <a href="{% url 'mca307' %}">Technical Seminar</a>
+   <a href="{% url 'mca308' %}">Software Lav</a>
+   <a href="{% url 'mca309' %}">Web Technologing Lab</a>
+   <a href="{% url 'mca310' %}">Project</a>
+    </div></div>
+<div class="dropdown">
+  <button class="dropbtn">Sem-4</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca401' %}">Cloud Computing</a>
+   <a href="{% url 'mca402' %}">Essentials of Data</a>
+    <a href="{% url 'mca403' %}">Project work</a>
+        </div></div>
+<div class="dropdown">
+  <button class="dropbtn">Faculty</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca501' %}">Prabakhar naidu</a>
+   <a href="{% url 'mca502' %}">Murali mohan</a>
+   <a href="{% url 'mca503' %}">Chandra </a>
+    <a href="{% url 'mca504' %}">Hasya</a>
+     <a href="{% url 'mca505' %}">Praveen chowdary</a>
+</div></div>
+<div class="dropdown">
+  <button class="dropbtn">About</button>
+      <div class="dropdown-content">
+       <a href="{% url 'mca501' %}">About</a>
+</div></div>
+</div>
+<h1>MCA 203: Data Communication and Computer Networks</h1>
+<pre>
+UNIT I
+Introduction, Network models – Internet model, OSI model Physical Layer: Signals – Analog, Digital, Digital
+Transmission – Coding, Sampling, Analog Transmission – Modulation of digital and analog signal,
+Multiplexing – FDM, WDM, TDM, Transmission Media – cable, wireless, Circuit switching and Telephone
+network, DSL Technology, Cable modern, SONET.
+UNIT II
+Data Link Layer: Error detection and correction, Data link control and Protocols – Stop and wait, Go-back-n,
+Selective repeat, HDLC, Point to point access, LANS – Traditional Ethernet, Fast Ethernet, Wireless LAN’s –
+IEEE 802.11, Blue tooth, Connecting LANs – Connecting devices, Backbone networks, Virtual LANS,
+2G,3G,4G,5G wireless technologies, Satellite networks, Virtual circuit switching, Frame relay, ATM.
+9
+`
+UNIT III
+Network Layer: Inter-networks, Addressing, Routing, Network layer Protocols, Types of Internet protocols –
+ARP, IPV4, ICMP, IPV6, Routing – Introduction, Unicast routing, Protocols – RIP, OSPF, BGP, Multicast
+Routing.
+UNIT IV
+Transport Layer: Process-to-Process Delivery, UDP, TCP, Data traffic, Congestion and Control, Quality of
+service (QOS) and techniques to improve QOS, Integrated services, QOS in Switched networks. Security:
+Introduction. Symmetric-key and Asymmetric cryptography, Key Management and Kerberos, Message
+security, Digital signature, User authentication, E-mail Security, Web security, Social Issues.
+UNIT V
+Application Layer: Design issues, file transfer, access and management. Client-Server model, Socket interface
+Introduction to DNS, Distribution of name space, DNS in the Internet. Electronic mail, SMTP, File Transfer,
+FTP, HTTP, World Wide web, Video-conferencing.
+Text Books:
+1.Forouzan B A, Data Communications and Networking, 4th edition, Tata McGraw-Hill, 2007.
+2.Tanenbaum A S, Computer Networks, 4th edition, Pearson Education, 2003.
+3.Ajay R. Mishra, Fundamentals of network planning and optimization, Willey,2nd edition,2018
+Reference Books:
+1. Stallings W, Data and Computer Communications, 7th edition, Pearson Education, 2004.
+2. Gallo M A, and Hancock W M, Computer Communications and Networking Technologies, Thomson
+Brooks/Cole, 2002.
+</pre>
+{% endblock %}
