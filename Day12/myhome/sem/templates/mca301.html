@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<div class="navbar">
+   
+    <div class="dropdown">
+   <button class="dropbtn">Sem-1</button>
+      <div class="dropdown-content">
+    <a href="{% url 'mca101' %}">DMS</a>
+   <a href="{% url 'mca102' %}">JAVA</a>
+   <a href="{% url 'mca103' %}">Co</a>
+   <a href="{% url 'mca104' %}">OS</a>
+   <a href="{% url 'mca105' %}">AFM</a>
+   <a href="{% url 'mca106' %}">Java Lab</a>
+   <a href="{% url 'mca107' %}">OS Lab</a>
+   <a href="{% url 'mca108' %}">Co Lab</a>
+        </div></div>
+<div class="dropdown">
+   <button class="dropbtn">Sem-2</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca201' %}">COOR</a>
+   <a href="{% url 'mca202' %}">Ds java</a>
+    <a href="{% url 'mca203' %}">DCCN</a>
+   <a href="{% url 'mca204' %}">ADBMS</a>
+   <a href="{% url 'mca205' %}">E-commerce</a>
+   <a href="{% url 'mca206' %}">Group Discussion</a>
+   <a href="{% url 'mca207' %}">DCCN LAB</a>
+   <a href="{% url 'mca208' %}">DS LAB</a>
+   <a href="{% url 'mca209' %}">ADBMS Lab</a>
+        </div></div>
+<div class="dropdown">
+   <button class="dropbtn">Sem-3</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca301' %}">Software Engineering</a>
+   <a href="{% url 'mca302' %}">Computer Graphics</a>
+   <a href="{% url 'mca303' %}">Web Technologys</a>
+    <a href="{% url 'mca304' %}">Data werhousing and Data mining</a>
+   <a href="{% url 'mca305' %}">Cryptoropht and Network security</a>
+   <a href="{% url 'mca306' %}"> courses offered by Other</a>
+    <a href="{% url 'mca307' %}">Technical Seminar</a>
+   <a href="{% url 'mca308' %}">Software Lav</a>
+   <a href="{% url 'mca309' %}">Web Technologing Lab</a>
+   <a href="{% url 'mca310' %}">Project</a>
+    </div></div>
+<div class="dropdown">
+  <button class="dropbtn">Sem-4</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca401' %}">Cloud Computing</a>
+   <a href="{% url 'mca402' %}">Essentials of Data</a>
+    <a href="{% url 'mca403' %}">Project work</a>
+        </div></div>
+<div class="dropdown">
+  <button class="dropbtn">Faculty</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca501' %}">Prabakhar naidu</a>
+   <a href="{% url 'mca502' %}">Murali mohan</a>
+   <a href="{% url 'mca503' %}">Chandra </a>
+    <a href="{% url 'mca504' %}">Hasya</a>
+     <a href="{% url 'mca505' %}">Praveen chowdary</a>
+</div></div>
+<div class="dropdown">
+  <button class="dropbtn">About</button>
+      <div class="dropdown-content">
+       <a href="{% url 'mca501' %}">About</a>
+</div></div>
+</div>
+</h1>MCA 301: Software Engineering</h1>
+<pre>UNIT I
+Software and Software Engineering: Introduction, Software, Software Myths, Software EngineeringProcess:- Software Engineering, Software Processes models; Evolutionary process Models, Component based
+development; Formal Methods Model, Fourth generation Techniques. An Agile view of processes and
+Development: Software Engineering practice – Software Engineering, communication, planning, modeling,
+construction practices and deployment.
+UNITII
+System Engineering: Computer-based systems, the system engineering Hierarchy, business process
+engineering, product engineering and system modeling. Building the analysis model, Requirement analysis,
+modeling approaches, data modeling.Behavioral model.
+UNIT –III
+Design Engineering: Design process and quality, design concepts the design model, and pattern-used software
+design. Architectural design: Software architecture, data design, architectural styles and patterns, architectural
+design mapping data flow into software architecture. Component-based software engineering, Critical systems
+development, Software reuse, User interface design, web apps design issues and architecture design.
+UNIT –IV
+Testing strategies: Strategies and issues, testing strategies for and object-oriented software.Validation testing
+and system testing. Software testing tactics: Fundamentals, black-box and white-box testing white-box testing
+basis path testing. Control structure testing, Black-box testing, Object-oriented testing methods. Testing
+methods applicable at the class level inter class testing case design.
+UNIT V
+Product Metrics: Software quality, framework, metrics for analysis model design model, source case and
+testing. Managing Software Projects: The management spectrum, the W5 HH principle, metrics in process,
+software measurement,Estimation: Observations, Decomposition Techniques, Empirical Models, Estimation
+For Object-Oriented Projects Other Estimation Techniques, Project Scheduling, Risk Management,
+Reengineering.
+Text Books:
+1. Roger, S, Pressman, Software Engineering, A Practitioner’s Approach, Six Edition, McGraw-Hill,
+International Edition, 2005.
+2. Ian Sommerville, Software Engineering, Pearson Education, 8th Edition.
+3.
+Reference Books:
+1. James F Peters, Software Engineering, John Wiley
+2. Waruan S Jawadekar, Software Engineering, Tata McGraw Hill, 2004.
+3. Carlo Ghezzi, Mehdi Jazayeri, Dino Manrioli, Fundamentals of Software Engineering, PHI, 2001
+PankajJalote, An Integrated approach to Software Engineering Narosa
+</pre>
+{% endblock %}

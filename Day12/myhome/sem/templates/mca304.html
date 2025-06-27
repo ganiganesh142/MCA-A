@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<div class="navbar">
+   
+    <div class="dropdown">
+   <button class="dropbtn">Sem-1</button>
+      <div class="dropdown-content">
+    <a href="{% url 'mca101' %}">DMS</a>
+   <a href="{% url 'mca102' %}">JAVA</a>
+   <a href="{% url 'mca103' %}">Co</a>
+   <a href="{% url 'mca104' %}">OS</a>
+   <a href="{% url 'mca105' %}">AFM</a>
+   <a href="{% url 'mca106' %}">Java Lab</a>
+   <a href="{% url 'mca107' %}">OS Lab</a>
+   <a href="{% url 'mca108' %}">Co Lab</a>
+        </div></div>
+<div class="dropdown">
+   <button class="dropbtn">Sem-2</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca201' %}">COOR</a>
+   <a href="{% url 'mca202' %}">Ds java</a>
+    <a href="{% url 'mca203' %}">DCCN</a>
+   <a href="{% url 'mca204' %}">ADBMS</a>
+   <a href="{% url 'mca205' %}">E-commerce</a>
+   <a href="{% url 'mca206' %}">Group Discussion</a>
+   <a href="{% url 'mca207' %}">DCCN LAB</a>
+   <a href="{% url 'mca208' %}">DS LAB</a>
+   <a href="{% url 'mca209' %}">ADBMS Lab</a>
+        </div></div>
+<div class="dropdown">
+   <button class="dropbtn">Sem-3</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca301' %}">Software Engineering</a>
+   <a href="{% url 'mca302' %}">Computer Graphics</a>
+   <a href="{% url 'mca303' %}">Web Technologys</a>
+    <a href="{% url 'mca304' %}">Data werhousing and Data mining</a>
+   <a href="{% url 'mca305' %}">Cryptoropht and Network security</a>
+   <a href="{% url 'mca306' %}"> courses offered by Other</a>
+    <a href="{% url 'mca307' %}">Technical Seminar</a>
+   <a href="{% url 'mca308' %}">Software Lav</a>
+   <a href="{% url 'mca309' %}">Web Technologing Lab</a>
+   <a href="{% url 'mca310' %}">Project</a>
+    </div></div>
+<div class="dropdown">
+  <button class="dropbtn">Sem-4</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca401' %}">Cloud Computing</a>
+   <a href="{% url 'mca402' %}">Essentials of Data</a>
+    <a href="{% url 'mca403' %}">Project work</a>
+        </div></div>
+<div class="dropdown">
+  <button class="dropbtn">Faculty</button>
+      <div class="dropdown-content">
+   <a href="{% url 'mca501' %}">Prabakhar naidu</a>
+   <a href="{% url 'mca502' %}">Murali mohan</a>
+   <a href="{% url 'mca503' %}">Chandra </a>
+    <a href="{% url 'mca504' %}">Hasya</a>
+     <a href="{% url 'mca505' %}">Praveen chowdary</a>
+</div></div>
+<div class="dropdown">
+  <button class="dropbtn">About</button>
+      <div class="dropdown-content">
+       <a href="{% url 'about' %}">About</a>
+</div></div>
+</div>
+<h1>MCA 304A: Data Warehousing and Datamining</h1>
+<pre>
+UNIT I
+Data warehousing and OLAP:Data Warehouse basic concepts, Data Warehouse Modelling, Data Cube and
+OLAP: Characteristics of OLAP systems, Multidimensional view and Data cube, Data Cube Implementations,
+Data Cube operations, Implementation of OLAP and overview on OLAP Software.
+UNIT II
+Data Mining and its Applications :Introduction, What is Data Mining, Motivating Challenges, Data Mining
+Tasks, Which technologies are used for data mining, Kinds of pattern that can be mined, Data Mining
+Applications, Data Pre-processing, Data cleaning, data integration, data reduction and data transformation.
+UNIT III
+Association Analysis: Basic Concepts and Algorithms :Frequent Item set Generation, Rule Generation,
+Compact Representation of Frequent Item sets, Alternative methods for generating Frequent Item sets, FP
+Growth Algorithm, Evaluation of Association Patterns
+UNIT IV
+Classification: Methods, Improving accuracy of classification:Basics, General approach to solve classification
+problem, Decision Trees, Rule Based Classifiers, NearestNeighbour Classifiers. Bayesian Classifiers,
+Estimating Predictive accuracy of classification methods, Improving accuracy of classification methods,
+Evaluation criteria for classification methods, Multiclass Problem.
+UNIT V
+Clustering Techniques: Overview: Features of cluster analysis, Types of Data and Computing Distance, Types
+of Cluster Analysis Methods, Partitional Methods, Hierarchical Methods, Density Based Methods, Quality
+and Validity of Cluster Analysis
+Text Books:
+1.Jiawei Han and MichelineKamber: Data Mining - Concepts and Techniques, 2nd Edition, Morgan
+Kaufmann Publisher, 2006.
+2.Pang-Ning Tan, Michael Steinbach, Vipin Kumar: Introduction to Data Mining, Addison- Wesley,
+2005.
+Reference Books:
+1. Arun K Pujari: Data Mining Techniques University Press, 2nd Edition, 2009.
+2. G. K. Gupta: Introduction to Data Mining with Case Studies, 3rd Edition, PHI, New Delhi, 2009.
+3. Alex Berson and Stephen J.Smith: Data Warehousing, Data Mining, and OLAP Computing 
+</pre>
+{% endblock %}
