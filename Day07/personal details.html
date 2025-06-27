@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <script src="gani1.js"></script>
+  <title>Personal Details</title>
+</head>
+<body>
+  <form onsubmit="event.preventDefault(); 
+        onFormSubmit();">
+     <table border=1 >
+<tr>
+   <th colspan=5>Personal Details</th>
+</tr>
+
+      <tr>
+        <td>Name</td>
+        <td><input type="text" id="Name" 
+	 placeholder="Enter the Your Name"  /></td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td><input type="number" id="Age" 
+	placeholder="Enter the Age" /></td>
+      </tr>
+      <tr>
+        <td>MobileNumber</td>
+        <td><input type="text" id="Mobile" 
+	placeholder="Enter the MobileNumber"  /></td>
+      </tr>
+      <tr>
+        <td>E-MailId</td>
+        <td><input type="email" id="E-MailId" 
+	placeholder="Enter Your E-MailId"  /></td>
+      </tr>
+      <tr>
+        <td>Course</td>
+        <td><input type="text" id="Course" 
+	placeholder="Enter Your Course" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center;">
+          <button type="submit" >Submit</button>
+          <button type="button" onclick="clearForm()">Clear</button>
+          <button type="button" onclick="exitForm()">Exit</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

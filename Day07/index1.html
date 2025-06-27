@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <script src="script1.js"></script>
+    <title>Personal Details</title>
+  </head>
+  <body>
+    <table border="2">
+      <tr>
+        <td>
+          <form onsubmit="event.preventDefault();onFormSubmit();">
+            <h2>Personal Details</h2><div>
+             <label for="Name">Name</label><br />
+              <input
+                type="text"
+                class="facName"
+                id="facName"
+	placeholder="Enter your Name"
+              />
+            </div>
+            <div>
+              <label for="Age">Age</label><br />
+              <input
+                type="text"
+                class="facAge"
+                id="facAge"
+                placeholder="Enter your Age"
+              />
+            </div>
+            <div>
+              <label for="MobileNumber">MobileNumber</label><br />
+              <input
+                type="text"
+                class="facMobileNumber"
+                id="facMobileNumber"
+                placeholder="Enter Your MobileNumber"
+              />
+            </div>
+            <div>
+              <label for="MailId">MailId</label><br />
+              <input
+                type="text"
+                class="facMailId"
+                id="facMailId"
+                placeholder="Enter  Your MailId "
+              />
+            </div>
+            <div>
+              <label for="Course">Course</label><br />
+              <input
+                type="text"
+                class="facCourse"
+                id="facCourse"
+                placeholder="Enter  Your Course"
+              />
+            </div>
+            <div>
+              <input type="submit" value="submit" />
+            </div>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+

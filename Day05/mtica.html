@@ -1,0 +1,29 @@
+<html>
+<head>
+<title> Login Form</title>
+</head>
+<body>
+<form form="Login_form" onsubmit="submit_form()">
+<table border=1>
+<tr>
+   	<th colspan=2><h4>MTICA LOGIN</h4></th>
+</tr><tr>
+	<th><h4> USER NAME</h4></th>
+	<th><input type="text" placeholder="User name "/></th>
+</tr><tr>
+	<th><h4> PASSWORD</h4></th>
+	<th><input type="password" placeholder="Enter your password "/></th>
+</tr><tr>
+	<th><input type="submit" value="Login"/></th>
+	<th><input type="button" value="Cancel"onClick="submit_form()"/></th>
+</tr></form>
+<script type =" text/javascript">
+function submit_form() 
+    {
+	alert ("Login Successfully");
+    }
+function create()
+    {
+	window.location="signup.html";
+    }
+</script></body></html>

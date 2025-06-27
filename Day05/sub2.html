@@ -1,0 +1,57 @@
+<html><head><script>			
+function add()  
+	{
+	var num1, num2, sum;
+	num1=parseInt(document.getElementById("txtFirstNumber").value);
+	num2=parseInt(document.getElementById("txtSecondNumber").value);
+	sum=num1 + num2
+	document.getElementById("txtAnswer").value=sum;    
+	}
+function sub()
+	{
+	var num1, num2, sub;
+	num1=parseInt(document.getElementById("txtFirstNumber").value);
+	num2=parseInt(document.getElementById("txtSecondNumber").value);
+	sub = num1 - num2
+	document.getElementById("txtAnswer").value=sub;    
+	}
+function mul()   
+	{
+	var num1, num2, mul;
+	num1=parseInt(document.getElementById("txtFirstNumber").value);
+	num2=parseInt(document.getElementById("txtSecondNumber").value);
+	mul = num1 * num2
+	document.getElementById("txtAnswer").value=mul;  
+	}
+function div()   
+	{
+	var num1, num2, mul;
+	num1=parseInt(document.getElementById("txtFirstNumber").value);
+	num2=parseInt(document.getElementById("txtSecondNumber").value);
+	div = num1 / num2
+	document.getElementById("txtAnswer").value=div;   
+	}
+function clearAll()   
+	{
+	document.getElementById("txtFirstNumber").value=" ";
+	document.getElementById("txtSecondNumber").value=" ";
+               document.getElementById("txtAnswer").value=" ";    
+	}
+</script></head><body >
+<table border=5 bgcolor="skyblue">
+<tr>  
+<td colspan=2>First Number</td>
+         <td colspan=2><input id ="txtFirstNumber"></td>
+</tr><tr> 
+<td colspan=2>Second Number</td> 
+          <td colspan=2><input id ="txtSecondNumber"></td>
+</tr><tr>
+	<th><button onclick="add()">Add </button></th>
+	<th><button onclick="sub()">Subtract </button></th>
+	<th><button onclick="mul()">multiple </button></th>
+	<th><button onclick="div()">division</button></th>
+</tr><tr>
+     <td colspan=4><p>sum=<input id="txtAnswer"></p></td>
+</tr><tr>
+	<td colspan=4 align="center" ><button onclick ="clearAll()"</button>clearAll</td>
+</tr></table></body></html>
